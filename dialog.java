@@ -8,7 +8,10 @@ public class dialog{
         System.out.println("Hello world");
 
         String name = JOptionPane.showInputDialog(null, "What is your name");
-
-        System.out.println("Hello " + name);
+        if (name != null && !name.isEmpty()){
+            System.out.println("Hello " + name);
+        }
+        else
+            System.out.println("no name have been entered");
     }
 }
