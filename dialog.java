@@ -1,4 +1,4 @@
-
+//import joption
 import javax.swing.JOptionPane;
 
 
@@ -9,9 +9,10 @@ public class dialog{
 
         String name = JOptionPane.showInputDialog(null, "What is your name");
         if (name != null && !name.isEmpty()){
+            JOptionPane.showMessageDialog(null, "Hello " + name);
             System.out.println("Hello " + name);
         }
         else
-            System.out.println("no name have been entered");
+            JOptionPane.showMessageDialog(null, "no name have been entered");
     }
 }
