@@ -15,6 +15,8 @@ public class adding {
         
         int result = secondNumber + firstNumber;
 
-        JOptionPane.showMessageDialog(null, result);
+        JOptionPane.showMessageDialog(null,  firstNumber + " + " + secondNumber + " = " + result);
+
+        System.out.println("Program ended");
     }
 }
