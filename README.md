@@ -1,2 +1,2 @@
 # introduction 
-This project is prance using jOPtion and plane
+This project is prance using jOPtion, Dialog, and JPlane

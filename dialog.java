@@ -1,7 +1,6 @@
 //import joption
 import javax.swing.JOptionPane;
 
-
 public class dialog{
     public static void main(String[] args) {
         //dialog boxes
