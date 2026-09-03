@@ -1,4 +1,4 @@
-//import joption
+//import IOptionPane
 import javax.swing.JOptionPane;
 
 public class dialog{
