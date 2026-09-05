@@ -1,13 +1,11 @@
 
 import javax.swing.JOptionPane;
 
-
-
 public class adding {
     public static void main(String[] args) {
         System.out.println("start program");
 
-        JOptionPane.showMessageDialog(null, "enter two numbers");
+        JOptionPane.showMessageDialog(null, "Enter two numbers");
 
         int firstNumber = Integer.parseInt(JOptionPane.showInputDialog("Enter the first number"));
 
@@ -15,6 +13,7 @@ public class adding {
         
         int result = secondNumber + firstNumber;
 
+        //output box
         JOptionPane.showMessageDialog(null,  firstNumber + " + " + secondNumber + " = " + result);
 
         System.out.println("Program ended");
